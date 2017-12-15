@@ -1,0 +1,26 @@
+{
+	"name": "avito",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"start": "nodemon -w src --exec babel-node -- src/index.js"
+	},
+	"dependencies": {
+		"cheerio": "^1.0.0-rc.2",
+		"lodash": "^4.17.4",
+		"request": "^2.83.0",
+		"request-promise": "^4.2.2",
+		"serialize-javascript": "^1.4.0"
+	},
+	"devDependencies": {
+		"babel-cli": "^6.26.0",
+		"babel-preset-env": "^1.6.1",
+		"nodemon": "^1.13.2"
+	},
+	"babel": {
+		"presets": [
+			"env"
+		]
+	}
+}
